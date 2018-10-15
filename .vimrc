@@ -7,3 +7,5 @@ set autoindent
 set linebreak
 set breakindent
 syntax on
+" f5 run python
+map <f5> :w<cr>:!python %<cr>
